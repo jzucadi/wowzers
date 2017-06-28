@@ -8,17 +8,18 @@
       <h2 class="subtitle">
        Hello, what is your name?
       </h2>
-
-     <div class="group">      
+      
+      <div class="group">      
       <input type="text" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Name</label>
-    </div>
-    
-     <nuxt-link class="navi" to="/email">
-            next ->
+      </div>
+      <div class="wrap">
+       <nuxt-link class="button btn" to="/email">
+            Continue
           </nuxt-link>
+       </div>
 
 
 
@@ -30,15 +31,10 @@
 </template>
 
 <script>
-import Logo from '~components/Logo.vue'
 
-export default {
-  components: {
-    Logo
-  }
-}
 </script>
 <style scoped>
+
 input {
     font-size: 18px;
     padding: 0.625em 0.625em 0.625em 0.3125em;
@@ -56,7 +52,7 @@ input:focus {
 /* LABEL ======================================= */
 
 label {
-    font-family: 'Arial';
+    
     color: rgba(82, 100, 136, 0.71);
     font-size: 18px;
     font-weight: normal;

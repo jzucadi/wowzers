@@ -23,8 +23,8 @@
      
 
 
-      <nuxt-link class="navi" to="/loandetail">
-            next ->
+      <nuxt-link class="button btn" to="/loandetail">
+            Continue
           </nuxt-link>
           
 
@@ -54,7 +54,7 @@ label {
   line-height: 36px;
   cursor: pointer;
   font-size: 1.4em;
-  color: #088ef8;
+  color: #54d1c3;
 }
 label::before {
   content: " ";
@@ -64,7 +64,7 @@ label::before {
   display: block;
   width: 24px;
   height: 24px;
-  border: 2px solid #2196F3;
+  border: 2px solid #54d1c3;
   border-radius: 4px;
   z-index: -1;
 }
@@ -82,7 +82,7 @@ input[type="radio"]:checked + label::before {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #2196F3;
+  background: #54d1c3;
 }
 /* Transition */
 label,

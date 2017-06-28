@@ -10,11 +10,9 @@
       </h2>
 
       <div id="flat-slider"></div>
-      <nuxt-link class="navi" to="/">
-            back ->
-          </nuxt-link>
-       <nuxt-link class="navi" to="/second">
-            next ->
+      
+       <nuxt-link class="button btn" to="/second">
+            Continue
           </nuxt-link>
 
     </div>

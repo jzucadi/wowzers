@@ -9,14 +9,16 @@
        What is your zip code?
       </h2>
       <div class="group">      
-      <input type="text" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Location</label>
+        <input type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Location</label>
       </div>
-      <nuxt-link class="navi" to="/loan">
-            next ->
+      <div class="wrap">
+        <nuxt-link class="button btn" to="/loan">
+           Continue
           </nuxt-link>
+      </div>
 
     </div>
   </section>
@@ -39,7 +41,6 @@ input:focus {
 /* LABEL ======================================= */
 
 label {
-    font-family: 'Arial';
     color: #999;
     font-size: 18px;
     font-weight: normal;

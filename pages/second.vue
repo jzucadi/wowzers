@@ -19,11 +19,9 @@
         </div>
         </form>
       </div>
-      <nuxt-link class="navi" to="/">
-            back ->
-          </nuxt-link>
-      <nuxt-link class="navi" to="/credit">
-            next ->
+      
+      <nuxt-link class="button btn" to="/credit">
+            Continue
           </nuxt-link>
 
     </div>

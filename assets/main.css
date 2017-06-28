@@ -8,6 +8,36 @@
     opacity: 0
 }
 
+.wrap {
+    margin: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button,
+.button:visited {
+    display: inline-block;
+    color: white;
+    letter-spacing: 1.5px;
+    background-color: rgba(33, 150, 243, 0.81);
+    text-decoration: none;
+    padding: 15px 45px;
+    border-radius: 30px;
+    font-size: 1.3em;
+    transition: all 0.5s ease 0s;
+    box-shadow: 0 20px 40px 0 rgba(33, 150, 243, .25);
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: #ccc;
+    transition: all 0.5s ease 0s;
+    transform: translateY(-5px);
+}
+
 .container {
     min-height: calc(80vh - 2.1em - 3em);
     max-width: 960px;

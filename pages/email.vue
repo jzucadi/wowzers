@@ -14,9 +14,11 @@
         <span class="bar"></span>
         <label>Email</label>
       </div>
-      <nuxt-link class="navi" to="/location">
-            next ->
+      <div class="wrap">
+        <nuxt-link class="button btn" to="/location">
+            Continue
           </nuxt-link>
+      </div>
 
     </div>
   </section>
@@ -39,7 +41,7 @@ input:focus {
 /* LABEL ======================================= */
 
 label {
-    font-family: 'Arial';
+    
     color: #999;
     font-size: 20px;
     font-weight: normal;

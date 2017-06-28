@@ -35,11 +35,9 @@
         </input>
       </label>
     </div>
-      <nuxt-link class="navi" to="/">
-            back ->
-          </nuxt-link>
-      <nuxt-link class="navi" to="/submit">
-            next ->
+      
+      <nuxt-link class="button btn" to="/submit">
+            Continue
           </nuxt-link>
 
     </div>
