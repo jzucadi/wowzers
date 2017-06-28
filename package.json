@@ -5,6 +5,7 @@
   "author": "James Zaccardo <jameszaccardo@gmail.com>",
   "private": true,
   "dependencies": {
+    "jquery": "^3.2.1",
     "nuxt": "latest"
   },
   "scripts": {

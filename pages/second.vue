@@ -8,15 +8,17 @@
       <h2 class="subtitle">
        Do you have a second mortgage?
       </h2>
-      <form action="">
-      <input type="radio" name="rdo" id="yes" checked />
-      <input type="radio" name="rdo" id="no"/>
-      <div class="switch">
-        <label for="yes">Yes</label>
-        <label for="no">No</label>
-        <span></span>
+      <div class="helper">
+        <form action="">
+        <input type="radio" name="rdo" id="yes" checked />
+        <input type="radio" name="rdo" id="no"/>
+        <div class="switch">
+          <label for="yes">Yes</label>
+          <label for="no">No</label>
+          <span></span>
+        </div>
+        </form>
       </div>
-      </form>
       <nuxt-link class="navi" to="/">
             back ->
           </nuxt-link>
@@ -35,7 +37,7 @@
   width: 250px;
   height: 70px;
   text-align: center;
-  margin: -30px 0 0 -75px;
+  margin: -30px 0 0 -125px;
   font-size: 1.4em;
   background: #4cd964;
   -webkit-transition: all 0.3s ease;

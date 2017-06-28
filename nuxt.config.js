@@ -11,16 +11,12 @@ module.exports = {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-        ]
+        ],
     },
     /*
      ** Global CSS
      */
     css: ['~assets/main.css'],
-
-    script: [{
-        src: 'https://code.jquery.com/jquery-3.1.1.slim.min.js'
-    }],
     /*
      ** Customize the progress-bar color
      */

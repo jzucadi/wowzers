@@ -45,7 +45,7 @@ input {
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #2196F3;
 }
 
 input:focus {
@@ -57,7 +57,7 @@ input:focus {
 
 label {
     font-family: 'Arial';
-    color: #999;
+    color: #2196F3;
     font-size: 18px;
     font-weight: normal;
     position: absolute;
@@ -77,7 +77,7 @@ input:valid~label {
     top: -20px;
     left: -2px;
     font-size: 14px;
-    color: #5264AE;
+    color: #2196F3;
 }
 
 
@@ -95,7 +95,7 @@ input:valid~label {
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #5264AE;
+    background: #2196F3;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
