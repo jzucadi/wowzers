@@ -12,7 +12,7 @@
         <div class="types">
           <div class="grid__col grid__col--1-of-3">
           <input type="radio" name="rb" id="rb1" />
-          <label for="rb1">Home</label></div>
+          <label for="rb1">House</label></div>
           <div class="grid__col grid__col--1-of-3">
           <input type="radio" name="rb" id="rb2" />
           <label for="rb2">Townhome</label></div>

@@ -42,7 +42,7 @@
   text-align: center;
   margin: -175px 0 0 -128px;
   font-size: 1.4em;
-  background: #54d1c3;
+  background: #2EE59D;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -127,5 +127,10 @@ label[for=no] {
 }
 #no:checked ~ .switch label[for=no] {
   color: #fff;
+}
+@media (max-width: 500px) {
+    .switch {
+margin: -114px 0 0 -125px;
+    }
 }
 </style>

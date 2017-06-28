@@ -91,7 +91,7 @@
   vertical-align: middle;
   color: #FFF;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-  box-shadow: inset 0 30px 20px -20px rgba(255, 255, 255, 0.15);
+  
   -webkit-transition: color 250ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
   transition: color 250ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }

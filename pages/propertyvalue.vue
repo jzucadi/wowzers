@@ -9,7 +9,7 @@
        What is the value of your property?
       </h2>
       <div class="wrap">
-        <div class="types">
+        <div class="types mor">
           <div class="grid__col grid__col--1-of-4">
           <input type="radio" name="rb" id="rb1" />
           <label for="rb1">$250k+</label></div>
@@ -94,4 +94,10 @@ label::before {
   -o-transition: .25s all ease;
   transition: .25s all ease;
 }
+@media (max-width: 500px) {
+    .mor {
+      margin-top: 75px;
+    }
+}
+
 </style>
