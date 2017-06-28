@@ -8,26 +8,31 @@
       <h2 class="subtitle">
        Do you have a second mortgage?
       </h2>
-      <div class="helper">
-        <form action="">
-        <input type="radio" name="rdo" id="yes" checked />
-        <input type="radio" name="rdo" id="no"/>
-        <div class="switch">
-          <label for="yes">Yes</label>
-          <label for="no">No</label>
-          <span></span>
+        <div class="helper">
+          <form action="">
+          <input type="radio" name="rdo" id="yes" checked />
+          <input type="radio" name="rdo" id="no"/>
+          <div class="switch">
+            <label for="yes">Yes</label>
+            <label for="no">No</label>
+            <span></span>
+          </div>
+          </form>
         </div>
-        </form>
-      </div>
       
-      <nuxt-link class="button btn" to="/credit">
+      <div class="wrap">
+        <nuxt-link class="button btn" to="/credit">
             Continue
           </nuxt-link>
-
+      </div>
     </div>
+    
   </section>
 </template>
 <style scoped>
+.btn {
+  transform: translate(-0%,225%);
+}
 .switch {
   position: absolute;
   top: 50%;
@@ -35,15 +40,15 @@
   width: 250px;
   height: 70px;
   text-align: center;
-  margin: -30px 0 0 -125px;
+  margin: -175px 0 0 -128px;
   font-size: 1.4em;
-  background: #2EE59D;
+  background: #54d1c3;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border-radius: 45px;
+  border-radius: 50px;
 }
 .switch span {
   position: absolute;

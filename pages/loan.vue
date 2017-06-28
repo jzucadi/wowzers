@@ -8,21 +8,23 @@
       <h2 class="subtitle">
        What type of property are you refinancing?
       </h2>
-      <div class="types">
-        <input type="radio" name="rb" id="rb1" />
-        <label for="rb1">Single Home</label>
-        <input type="radio" name="rb" id="rb2" />
-        <label for="rb2">Townhome</label>
-        <input type="radio" name="rb" id="rb3" />
-        <label for="rb3">Condominium</label>
-       
+      <div class="wrap">
+        <div class="types">
+          <div class="grid__col grid__col--1-of-3">
+          <input type="radio" name="rb" id="rb1" />
+          <label for="rb1">Home</label></div>
+          <div class="grid__col grid__col--1-of-3">
+          <input type="radio" name="rb" id="rb2" />
+          <label for="rb2">Townhome</label></div>
+          <div class="grid__col grid__col--1-of-3">
+          <input type="radio" name="rb" id="rb3" />
+          <label for="rb3">Condominium</label></div>
         
+          
+        </div>
       </div>
 
       
-     
-
-
       <nuxt-link class="button btn" to="/loandetail">
             Continue
           </nuxt-link>
@@ -34,7 +36,7 @@
 <style scoped>
 .types {
   position: absolute;
-  top: 50%;
+  
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -49,8 +51,8 @@ label {
   display: inline-block;
   margin-right: 25px;
   margin-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
   line-height: 36px;
   cursor: pointer;
   font-size: 1.4em;

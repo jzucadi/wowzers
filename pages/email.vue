@@ -15,7 +15,7 @@
         <label>Email</label>
       </div>
       <div class="wrap">
-        <nuxt-link class="button btn" to="/location">
+        <nuxt-link class="button btn" to="/loan">
             Continue
           </nuxt-link>
       </div>
@@ -61,7 +61,7 @@ input:focus~label,
 input:valid~label {
     top: -20px;
     left: -2px;
-    font-size: 14px;
+    font-size: 18px;
     color: #54d1c3;
 }
 

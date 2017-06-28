@@ -72,7 +72,7 @@ input:focus~label,
 input:valid~label {
     top: -20px;
     left: -2px;
-    font-size: 14px;
+    font-size: 18px;
     color: #54d1c3;
 }
 

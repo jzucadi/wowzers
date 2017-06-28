@@ -120,9 +120,7 @@
 .btns input:checked + .btn {
   color: #607D8B;
   text-shadow: none;
-  background-image: -webkit-linear-gradient( bottom , rgba(25, 25, 25, 0) 65%, rgba(25, 25, 25, 0.08));
-  background-image: -webkit-linear-gradient(bottom, rgba(25, 25, 25, 0) 65%, rgba(25, 25, 25, 0.08));
-  background-image: linear-gradient(to top, rgba(25, 25, 25, 0) 65%, rgba(25, 25, 25, 0.08));
+  
   box-shadow: inset 0 10px 50px rgba(25, 25, 25, 0.08);
   -webkit-transition: color 500ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 150ms;
   transition: color 500ms cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 150ms;
