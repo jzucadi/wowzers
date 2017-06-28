@@ -25,7 +25,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 .types {
   position: absolute;
   top: 50%;
@@ -41,7 +41,7 @@ input[type="radio"] {
 label {
   position: relative;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 25px;
   margin-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;

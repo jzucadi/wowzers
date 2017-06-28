@@ -21,14 +21,14 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 input {
     font-size: 18px;
     padding: 0.625em 0.625em 0.625em 0.3125em;
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #54d1c3;
+    border-bottom: 1.5px solid #54d1c3;
 }
 
 input:focus {
@@ -41,12 +41,12 @@ input:focus {
 label {
     font-family: 'Arial';
     color: #999;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
     left: 0.3125em;
-    top: 0.625em;
+    top: 0.620em;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
@@ -74,9 +74,9 @@ input:valid~label {
 .bar:before,
 .bar:after {
     content: '';
-    height: 2px;
+    height: 2.5px;
     width: 0;
-    bottom: 1px;
+    bottom: 0px;
     position: absolute;
     background: #54d1c3;
     transition: 0.2s ease all;

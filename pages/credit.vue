@@ -45,7 +45,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 .button-link {
   text-decoration: none;
 }

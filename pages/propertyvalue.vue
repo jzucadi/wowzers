@@ -20,5 +20,5 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 </style>

@@ -29,7 +29,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 .switch {
   position: absolute;
   top: 50%;
@@ -39,7 +39,7 @@
   text-align: center;
   margin: -30px 0 0 -125px;
   font-size: 1.4em;
-  background: #4cd964;
+  background: #2EE59D;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;

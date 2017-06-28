@@ -15,7 +15,7 @@
       <span class="bar"></span>
       <label>Name</label>
     </div>
-
+    
      <nuxt-link class="navi" to="/email">
             next ->
           </nuxt-link>
@@ -38,14 +38,14 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 input {
     font-size: 18px;
     padding: 0.625em 0.625em 0.625em 0.3125em;
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #2196F3;
+    border-bottom: 1.5px solid #54d1c3;
 }
 
 input:focus {
@@ -57,7 +57,7 @@ input:focus {
 
 label {
     font-family: 'Arial';
-    color: #999;
+    color: rgba(82, 100, 136, 0.71);
     font-size: 18px;
     font-weight: normal;
     position: absolute;
@@ -77,7 +77,7 @@ input:valid~label {
     top: -20px;
     left: -2px;
     font-size: 14px;
-    color: #2196F3;
+    color: #54d1c3;
 }
 
 
@@ -91,11 +91,11 @@ input:valid~label {
 .bar:before,
 .bar:after {
     content: '';
-    height: 2px;
+    height: 2.5px;
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #2196F3;
+    background: #54d1c3;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;

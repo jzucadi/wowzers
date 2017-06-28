@@ -21,33 +21,22 @@ html
   box-sizing: border-box;
   margin: 0;
 }
-.button--green
+.button, .button:visited
 {
   display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  color: white;
+  letter-spacing: 1px;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 15px 45px;
+  border-radius:30px;
+  transition: opacity .6s
 }
-.button--green:hover
+
+.button:hover, .button:focus
 {
   color: #fff;
-  background-color: #3b8070;
-}
-.button--grey
-{
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-.button--grey:hover
-{
-  color: #fff;
-  background-color: #35495e;
+  background-color: #ccc;
+  transition: opacity .6s
 }
 </style>
