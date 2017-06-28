@@ -1,4 +1,4 @@
-# Wisdom Company
+
 
 > Loan Form Example
 
