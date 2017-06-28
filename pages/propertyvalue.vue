@@ -94,7 +94,7 @@ label::before {
   -o-transition: .25s all ease;
   transition: .25s all ease;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .mor {
       margin-top: 75px;
     }

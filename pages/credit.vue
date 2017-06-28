@@ -138,13 +138,24 @@
 @media (max-width: 500px) {
     .btns {
           width: 360px;
+          border-radius: 12px;
+         
+          
+    }
+}
+@media (max-width: 800px) {
+    .btns {
+          width: 660px;
+          border-radius: 25px;
          
           
     }
 }
 @media (max-width: 500px) {
     .btns .btn {
-       font-size: 16px;
+       font-size: 15.5px;
+       border-radius: 12px;
+       
     }
 }
 

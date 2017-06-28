@@ -74,10 +74,22 @@
     margin-top: 5em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+    .types {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 800px) {
     .types {
         text-align: left;
         margin-top: 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .subtitle {
+        font-size: 48px;
     }
 }
 
@@ -90,15 +102,15 @@
 
 @media (max-width: 500px) {
     .group {
-        margin-right: 3.2em;
-        margin-left: 3.2em;
+        margin-right: 3.5em;
+        margin-left: 3.5em;
     }
 }
 
 @media (max-width: 500px) {
     .container {
-        margin-right: 3.2em;
-        margin-left: 3.2em;
+        margin-right: 3.5em;
+        margin-left: 3.5em;
     }
 }
 
@@ -477,7 +489,7 @@
     vertical-align: top;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .grid__col {
         display: block;
         margin-left: 0;
@@ -486,7 +498,7 @@
     }
 }
 
-@media (max-width: 700px) and (min-width: 480px) {
+@media (max-width: 800px) and (min-width: 480px) {
     .grid__col[class*="grid__col--m-"] {
         display: inline-block;
         margin-right: -.24em;
