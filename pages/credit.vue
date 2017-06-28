@@ -52,9 +52,9 @@
 
 .btns {
   
-  background-image: -webkit-linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
-  background-image: -webkit-linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
-  background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+  background-image: -webkit-linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-image: -webkit-linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-image:linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   z-index: 0;
   height: 80px;
   float: none;

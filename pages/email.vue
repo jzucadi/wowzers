@@ -28,7 +28,7 @@ input {
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid #54d1c3;
 }
 
 input:focus {
@@ -60,7 +60,7 @@ input:valid~label {
     top: -20px;
     left: -2px;
     font-size: 14px;
-    color: #5264AE;
+    color: #54d1c3;
 }
 
 
@@ -78,7 +78,7 @@ input:valid~label {
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #5264AE;
+    background: #54d1c3;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;

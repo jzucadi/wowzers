@@ -57,7 +57,7 @@ input:focus {
 
 label {
     font-family: 'Arial';
-    color: #2196F3;
+    color: #999;
     font-size: 18px;
     font-weight: normal;
     position: absolute;
