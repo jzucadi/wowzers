@@ -25,12 +25,13 @@
 </template>
 <style scoped>
 input {
-    font-size: 18px;
+    font-size: 22px;
     padding: 0.625em 0.625em 0.625em 0.3125em;
     display: block;
     width: 100%;
     border: none;
     border-bottom: 1.5px solid #54d1c3;
+    color: #607D8B;
 }
 
 input:focus {
@@ -42,7 +43,7 @@ input:focus {
 
 label {
     color: #999;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;

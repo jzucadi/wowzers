@@ -42,6 +42,7 @@ input {
     width: 100%;
     border: none;
     border-bottom: 1.5px solid #54d1c3;
+    color: #607D8B;
 }
 
 input:focus {
@@ -54,11 +55,11 @@ input:focus {
 label {
     
     color: rgba(82, 100, 136, 0.71);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
-    left: 0.3125em;
+    left: 0.3em;
     top: 0.625em;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;

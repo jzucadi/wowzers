@@ -135,7 +135,7 @@
   transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms;
   transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms, -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
 }
-@media (max-width: 500px) {
+@media (max-width: 670px) {
     .btns {
           width: 360px;
           border-radius: 12px;
@@ -143,19 +143,22 @@
           
     }
 }
+
+@media (max-width: 500px) {
+    .btns .btn {
+       font-size: 15.5px;
+       border-radius: 12px;
+       width: 360px;
+       
+    }
+}
+
 @media (max-width: 800px) {
     .btns {
           width: 660px;
           border-radius: 25px;
          
           
-    }
-}
-@media (max-width: 500px) {
-    .btns .btn {
-       font-size: 15.5px;
-       border-radius: 12px;
-       
     }
 }
 

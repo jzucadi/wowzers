@@ -76,7 +76,7 @@
 
 @media (max-width: 800px) {
     .types {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 }
 
@@ -96,7 +96,7 @@
 @media (max-width: 500px) {
     .subtitle {
         font-size: 28px;
-        margin: 70px 25px auto;
+        margin: 70px 20px auto;
     }
 }
 
