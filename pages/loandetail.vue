@@ -48,8 +48,10 @@ label {
   line-height: 36px;
   cursor: pointer;
   font-size: 1.4em;
+  color: #088ef8;
 }
 label::before {
+  
   content: " ";
   position: absolute;
   top: 6px;

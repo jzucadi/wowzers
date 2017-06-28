@@ -6,7 +6,7 @@
         
       </h1>
       <h2 class="subtitle">
-       Please estimate the value of your property
+       What is the value of your property?
       </h2>
 
       <div id="flat-slider"></div>

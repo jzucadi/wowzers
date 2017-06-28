@@ -6,7 +6,7 @@
         
       </h1>
       <h2 class="subtitle">
-       Can you estimate your credit rating?
+       What is your credit rating?
       </h2>
       <div class='btns'>
       <label>
