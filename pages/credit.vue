@@ -31,7 +31,7 @@
       </label>
       <label>
         <input name='button-group' type='radio' value='third'>
-          <span class='btn last'>750 +</span>
+          <span class='btn last'>750+</span>
         </input>
       </label>
     </div>
@@ -135,4 +135,19 @@
   transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms;
   transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms, -webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
 }
+@media (max-width: 500px) {
+    .btns {
+          width: 360px;
+         
+          
+    }
+}
+@media (max-width: 500px) {
+    .btns .btn {
+       font-size: 16px;
+    }
+}
+
+
+
 </style>
